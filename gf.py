@@ -1,3 +1,16 @@
+import http.server
+import socketserver
+import threading
+def keep_alive():
+port = int(os.environ.get("PORT", 8080))
+# "0.0.0.0" is strictly required for Render to detect the open port
+server_address = ("0.0.0.0", port)
+handler = http.server.SimpleHTTPRequestHandler
+httpd = socketserver.TCPServer(server_address, handler)
+threading.Thread(target=httpd.serve_forever, daemon=True).start()
+#Run the fake web server right before the rest of your bot code executes
+keep_alive()
+
 import os
 import logging
 from telegram import Update
