@@ -10,7 +10,7 @@ OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 
 # Model list with auto-fallback
 MODELS = [
-    "sao10k/l3.3-euryale-70b:free",  # uncensored main
+    "meta-llama/llama-3.3-70b-instruct:free",  # uncensored main
                              # backup
 ]
 # ===========================================================
