@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ===================== CONFIGURATION =====================
-TELEGRAM_TOKEN = "8784251460:AAEG-7vtByxoWLiL9QJLZnU"
+TELEGRAM_TOKEN = "9219274070:AAFpJcPFmvVLRWQJHIYNEsADeUe-EC85cTI"
 API_URL = "https://drift-deepseek-04.onrender.com/ask"
 API_KEY = "DRIFT"
 MODEL = "gpt-oss"
