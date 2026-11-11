@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # ===================== CONFIGURATION =====================
 TELEGRAM_TOKEN = "9219274070:AAFpJcPFmvVLRWQJHIYNEsADeUe-EC85cTI"
 API_URL = "https://drift-deepseek-04.onrender.com/ask"
-API_KEY = "DRIFT"
+API_KEY = "sk-c1ed55138c9a42809091b07a6b5a4338"
 MODEL = "gpt-oss"
 
 # Romantic Hinglish & Cute Pookie system prompt
