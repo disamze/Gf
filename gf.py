@@ -10,9 +10,8 @@ OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 
 # Model list with auto-fallback
 MODELS = [
-    "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",  # uncensored main
-    "deepseek/deepseek-chat-v3-0324:free",                             # backup
-    "meta-llama/llama-3.3-70b-instruct:free",                          # backup
+    "sao10k/l3.3-euryale-70b:free",  # uncensored main
+                             # backup
 ]
 # ===========================================================
 
